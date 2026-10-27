@@ -1,0 +1,153 @@
+{
+  "version": "v2",
+  "events": 394,
+  "alerts": [
+    {
+      "rule": "ssh_bruteforce",
+      "technique": "T1110.001",
+      "severity": "High",
+      "time": "10:30:27",
+      "key": "198.51.100.23",
+      "ip": "198.51.100.23",
+      "detail": "40 failed logins"
+    },
+    {
+      "rule": "success_after_bruteforce",
+      "technique": "T1078",
+      "severity": "Critical",
+      "time": "10:32:08",
+      "key": "198.51.100.23",
+      "ip": "198.51.100.23",
+      "detail": "account 'admin' logged in after the brute force"
+    },
+    {
+      "rule": "new_user_created",
+      "technique": "T1136.001",
+      "severity": "High",
+      "time": "10:34:08",
+      "key": "svc_backup",
+      "ip": null,
+      "detail": "new account svc_backup"
+    },
+    {
+      "rule": "sudo_root_shell",
+      "technique": "T1548.003",
+      "severity": "High",
+      "time": "10:37:08",
+      "key": "svc_backup",
+      "ip": null,
+      "detail": "svc_backup ran /bin/bash as root"
+    },
+    {
+      "rule": "crontab_modified",
+      "technique": "T1053.003",
+      "severity": "Medium",
+      "time": "10:41:08",
+      "key": "svc_backup",
+      "ip": null,
+      "detail": "svc_backup changed their crontab"
+    },
+    {
+      "rule": "port_scan",
+      "technique": "T1046",
+      "severity": "Medium",
+      "time": "11:40:00",
+      "key": "198.51.100.77",
+      "ip": "198.51.100.77",
+      "detail": "40 different ports in 60s"
+    },
+    {
+      "rule": "web_sqli",
+      "technique": "T1190",
+      "severity": "High",
+      "time": "12:10:00",
+      "key": "192.0.2.44",
+      "ip": "192.0.2.44",
+      "detail": "payload: /products?id=1' OR '1'='1"
+    },
+    {
+      "rule": "ssh_bruteforce_slow",
+      "technique": "T1110.001",
+      "severity": "Medium",
+      "time": "11:45:28",
+      "key": "203.0.113.99",
+      "ip": "203.0.113.99",
+      "detail": "12 failures spread over an hour"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "A1",
+      "name": "SSH brute force (fast)",
+      "technique": "T1110.001",
+      "expected_rule": "ssh_bruteforce",
+      "key": "198.51.100.23",
+      "time": "10:30:00",
+      "detected": true
+    },
+    {
+      "id": "A2",
+      "name": "Valid account login after failures",
+      "technique": "T1078",
+      "expected_rule": "success_after_bruteforce",
+      "key": "198.51.100.23",
+      "time": "10:32:08",
+      "detected": true
+    },
+    {
+      "id": "A3",
+      "name": "Backdoor user created",
+      "technique": "T1136.001",
+      "expected_rule": "new_user_created",
+      "key": "svc_backup",
+      "time": "10:34:08",
+      "detected": true
+    },
+    {
+      "id": "A4",
+      "name": "Root shell via sudo",
+      "technique": "T1548.003",
+      "expected_rule": "sudo_root_shell",
+      "key": "svc_backup",
+      "time": "10:37:08",
+      "detected": true
+    },
+    {
+      "id": "A5",
+      "name": "Cron job persistence",
+      "technique": "T1053.003",
+      "expected_rule": "crontab_modified",
+      "key": "svc_backup",
+      "time": "10:41:08",
+      "detected": true
+    },
+    {
+      "id": "A6",
+      "name": "SSH brute force (low and slow)",
+      "technique": "T1110.001",
+      "expected_rule": "ssh_bruteforce_slow",
+      "key": "203.0.113.99",
+      "time": "11:00:00",
+      "detected": true
+    },
+    {
+      "id": "A7",
+      "name": "TCP port scan",
+      "technique": "T1046",
+      "expected_rule": "port_scan",
+      "key": "198.51.100.77",
+      "time": "11:40:00",
+      "detected": true
+    },
+    {
+      "id": "A8",
+      "name": "SQL injection",
+      "technique": "T1190",
+      "expected_rule": "web_sqli",
+      "key": "192.0.2.44",
+      "time": "12:10:00",
+      "detected": true
+    }
+  ],
+  "false_positives": []
+}

@@ -1,0 +1,91 @@
+Oct 26 09:05:00 target-linux sshd[7023]: Accepted publickey for priya from 10.0.0.12 port 43836 ssh2
+Oct 26 09:10:00 target-linux sshd[6340]: Accepted publickey for sanjay from 10.0.0.15 port 51474 ssh2
+Oct 26 09:17:00 target-linux sshd[2686]: Accepted publickey for sanjay from 10.0.0.15 port 41936 ssh2
+Oct 26 09:20:00 target-linux sshd[8559]: Accepted publickey for sanjay from 10.0.0.15 port 58004 ssh2
+Oct 26 09:31:00 target-linux sudo: sanjay : TTY=pts/0 ; PWD=/home/sanjay ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 26 09:48:00 target-linux sudo: sanjay : TTY=pts/0 ; PWD=/home/sanjay ; USER=root ; COMMAND=/bin/bash
+Oct 26 09:54:00 target-linux sshd[2608]: Accepted publickey for sanjay from 10.0.0.15 port 53702 ssh2
+Oct 26 09:55:00 target-linux sudo: priya : TTY=pts/0 ; PWD=/home/priya ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Oct 26 10:09:00 target-linux sshd[2264]: Accepted publickey for priya from 10.0.0.12 port 50145 ssh2
+Oct 26 10:09:00 target-linux sudo: sanjay : TTY=pts/0 ; PWD=/home/sanjay ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+Oct 26 10:10:00 target-linux sshd[7078]: Failed password for priya from 10.0.0.15 port 50111 ssh2
+Oct 26 10:10:25 target-linux sshd[7433]: Failed password for priya from 10.0.0.15 port 50111 ssh2
+Oct 26 10:10:50 target-linux sshd[4980]: Failed password for priya from 10.0.0.15 port 50111 ssh2
+Oct 26 10:11:00 target-linux sshd[8253]: Accepted publickey for sanjay from 10.0.0.15 port 53608 ssh2
+Oct 26 10:11:30 target-linux sshd[3672]: Accepted password for priya from 10.0.0.15 port 50112 ssh2
+Oct 26 10:16:00 target-linux sshd[6827]: Accepted publickey for priya from 10.0.0.15 port 49435 ssh2
+Oct 26 10:22:00 target-linux sshd[7668]: Accepted publickey for sanjay from 10.0.0.12 port 42373 ssh2
+Oct 26 10:30:00 target-linux sshd[5705]: Failed password for invalid user oracle from 198.51.100.23 port 59657 ssh2
+Oct 26 10:30:03 target-linux sshd[3552]: Failed password for invalid user test from 198.51.100.23 port 38328 ssh2
+Oct 26 10:30:06 target-linux sshd[9066]: Failed password for invalid user oracle from 198.51.100.23 port 36826 ssh2
+Oct 26 10:30:09 target-linux sshd[5506]: Failed password for invalid user oracle from 198.51.100.23 port 50180 ssh2
+Oct 26 10:30:12 target-linux sshd[5089]: Failed password for invalid user oracle from 198.51.100.23 port 40455 ssh2
+Oct 26 10:30:15 target-linux sshd[1803]: Failed password for invalid user ubuntu from 198.51.100.23 port 36518 ssh2
+Oct 26 10:30:18 target-linux sshd[7810]: Failed password for invalid user admin from 198.51.100.23 port 35283 ssh2
+Oct 26 10:30:21 target-linux sshd[6571]: Failed password for invalid user ubuntu from 198.51.100.23 port 59340 ssh2
+Oct 26 10:30:24 target-linux sshd[3964]: Failed password for invalid user test from 198.51.100.23 port 55956 ssh2
+Oct 26 10:30:27 target-linux sshd[3085]: Failed password for invalid user ubuntu from 198.51.100.23 port 55174 ssh2
+Oct 26 10:30:30 target-linux sshd[1995]: Failed password for invalid user oracle from 198.51.100.23 port 50850 ssh2
+Oct 26 10:30:33 target-linux sshd[8622]: Failed password for invalid user ubuntu from 198.51.100.23 port 48192 ssh2
+Oct 26 10:30:36 target-linux sshd[2913]: Failed password for invalid user oracle from 198.51.100.23 port 38258 ssh2
+Oct 26 10:30:39 target-linux sshd[7659]: Failed password for invalid user oracle from 198.51.100.23 port 54180 ssh2
+Oct 26 10:30:42 target-linux sshd[5537]: Failed password for invalid user ubuntu from 198.51.100.23 port 42312 ssh2
+Oct 26 10:30:45 target-linux sshd[3595]: Failed password for invalid user ubuntu from 198.51.100.23 port 41804 ssh2
+Oct 26 10:30:48 target-linux sshd[2533]: Failed password for invalid user ubuntu from 198.51.100.23 port 44492 ssh2
+Oct 26 10:30:51 target-linux sshd[4095]: Failed password for invalid user admin from 198.51.100.23 port 50164 ssh2
+Oct 26 10:30:54 target-linux sshd[6055]: Failed password for root from 198.51.100.23 port 56864 ssh2
+Oct 26 10:30:57 target-linux sshd[5355]: Failed password for invalid user oracle from 198.51.100.23 port 40160 ssh2
+Oct 26 10:31:00 target-linux sshd[6322]: Failed password for invalid user oracle from 198.51.100.23 port 54020 ssh2
+Oct 26 10:31:03 target-linux sshd[1753]: Failed password for root from 198.51.100.23 port 37262 ssh2
+Oct 26 10:31:06 target-linux sshd[5967]: Failed password for invalid user admin from 198.51.100.23 port 50186 ssh2
+Oct 26 10:31:09 target-linux sshd[8043]: Failed password for invalid user test from 198.51.100.23 port 46799 ssh2
+Oct 26 10:31:12 target-linux sshd[1982]: Failed password for invalid user ubuntu from 198.51.100.23 port 34326 ssh2
+Oct 26 10:31:15 target-linux sshd[4923]: Failed password for invalid user test from 198.51.100.23 port 50071 ssh2
+Oct 26 10:31:18 target-linux sshd[1565]: Failed password for root from 198.51.100.23 port 31782 ssh2
+Oct 26 10:31:21 target-linux sshd[7015]: Failed password for root from 198.51.100.23 port 39952 ssh2
+Oct 26 10:31:24 target-linux sshd[9770]: Failed password for root from 198.51.100.23 port 41703 ssh2
+Oct 26 10:31:27 target-linux sshd[4874]: Failed password for invalid user oracle from 198.51.100.23 port 43540 ssh2
+Oct 26 10:31:30 target-linux sshd[6134]: Failed password for invalid user oracle from 198.51.100.23 port 49303 ssh2
+Oct 26 10:31:33 target-linux sshd[4545]: Failed password for invalid user admin from 198.51.100.23 port 42000 ssh2
+Oct 26 10:31:36 target-linux sshd[8980]: Failed password for invalid user oracle from 198.51.100.23 port 35197 ssh2
+Oct 26 10:31:39 target-linux sshd[1431]: Failed password for invalid user admin from 198.51.100.23 port 56263 ssh2
+Oct 26 10:31:42 target-linux sshd[3646]: Failed password for invalid user admin from 198.51.100.23 port 44773 ssh2
+Oct 26 10:31:45 target-linux sshd[2243]: Failed password for root from 198.51.100.23 port 50912 ssh2
+Oct 26 10:31:48 target-linux sshd[5619]: Failed password for invalid user admin from 198.51.100.23 port 43171 ssh2
+Oct 26 10:31:51 target-linux sshd[1388]: Failed password for invalid user ubuntu from 198.51.100.23 port 31839 ssh2
+Oct 26 10:31:54 target-linux sshd[6939]: Failed password for invalid user oracle from 198.51.100.23 port 49487 ssh2
+Oct 26 10:31:57 target-linux sshd[8470]: Failed password for invalid user oracle from 198.51.100.23 port 49722 ssh2
+Oct 26 10:32:08 target-linux sshd[9680]: Accepted password for admin from 198.51.100.23 port 41022 ssh2
+Oct 26 10:34:03 target-linux sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/useradd svc_backup
+Oct 26 10:34:08 target-linux useradd[9274]: new user: name=svc_backup, UID=1005, GID=1005, home=/home/svc_backup, shell=/bin/bash
+Oct 26 10:35:00 target-linux crontab[5022]: (sanjay) REPLACE (sanjay)
+Oct 26 10:37:08 target-linux sudo: svc_backup : TTY=pts/3 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/bin/bash
+Oct 26 10:41:08 target-linux crontab[5271]: (svc_backup) REPLACE (svc_backup)
+Oct 26 11:00:10 target-linux sshd[1206]: Failed password for invalid user git from 203.0.113.99 port 32016 ssh2
+Oct 26 11:05:34 target-linux sshd[1613]: Failed password for invalid user jenkins from 203.0.113.99 port 36083 ssh2
+Oct 26 11:06:00 target-linux sshd[4775]: Accepted publickey for sanjay from 10.0.0.15 port 44238 ssh2
+Oct 26 11:10:15 target-linux sshd[3808]: Failed password for invalid user git from 203.0.113.99 port 59875 ssh2
+Oct 26 11:15:06 target-linux sshd[1402]: Failed password for invalid user ftp from 203.0.113.99 port 34661 ssh2
+Oct 26 11:18:00 target-linux sshd[6254]: Accepted publickey for sanjay from 10.0.0.12 port 43376 ssh2
+Oct 26 11:20:26 target-linux sshd[4468]: Failed password for invalid user jenkins from 203.0.113.99 port 56652 ssh2
+Oct 26 11:22:00 target-linux sshd[5944]: Accepted publickey for sanjay from 10.0.0.15 port 44726 ssh2
+Oct 26 11:25:39 target-linux sshd[4061]: Failed password for invalid user postgres from 203.0.113.99 port 32089 ssh2
+Oct 26 11:28:00 target-linux sshd[7301]: Accepted publickey for sanjay from 10.0.0.12 port 57948 ssh2
+Oct 26 11:29:00 target-linux sshd[2012]: Accepted publickey for priya from 10.0.0.12 port 41526 ssh2
+Oct 26 11:30:19 target-linux sshd[1994]: Failed password for invalid user jenkins from 203.0.113.99 port 53442 ssh2
+Oct 26 11:32:00 target-linux sshd[8674]: Accepted publickey for priya from 10.0.0.12 port 43066 ssh2
+Oct 26 11:35:00 target-linux sshd[3134]: Accepted publickey for sanjay from 10.0.0.15 port 45405 ssh2
+Oct 26 11:35:34 target-linux sshd[1304]: Failed password for invalid user jenkins from 203.0.113.99 port 57670 ssh2
+Oct 26 11:40:27 target-linux sshd[8822]: Failed password for invalid user git from 203.0.113.99 port 54305 ssh2
+Oct 26 11:45:00 target-linux sshd[5862]: Accepted publickey for priya from 10.0.0.15 port 51370 ssh2
+Oct 26 11:45:28 target-linux sshd[4073]: Failed password for invalid user ftp from 203.0.113.99 port 33449 ssh2
+Oct 26 11:50:16 target-linux sshd[5005]: Failed password for invalid user git from 203.0.113.99 port 34039 ssh2
+Oct 26 11:54:00 target-linux sshd[6346]: Accepted publickey for priya from 10.0.0.15 port 59187 ssh2
+Oct 26 11:55:21 target-linux sshd[5513]: Failed password for invalid user git from 203.0.113.99 port 38715 ssh2
+Oct 26 12:02:00 target-linux sshd[2176]: Accepted publickey for sanjay from 10.0.0.12 port 56266 ssh2
+Oct 26 12:09:00 target-linux sshd[7719]: Accepted publickey for sanjay from 10.0.0.15 port 56269 ssh2
+Oct 26 12:13:00 target-linux sshd[3690]: Accepted publickey for priya from 10.0.0.15 port 53818 ssh2
+Oct 26 12:23:00 target-linux sshd[5199]: Accepted publickey for sanjay from 10.0.0.12 port 58822 ssh2
+Oct 26 12:30:00 target-linux sshd[7191]: Accepted publickey for sanjay from 10.0.0.12 port 56627 ssh2
+Oct 26 12:31:00 target-linux sshd[4857]: Accepted publickey for sanjay from 10.0.0.12 port 58910 ssh2
+Oct 26 12:56:00 target-linux sshd[7124]: Accepted publickey for priya from 10.0.0.15 port 48140 ssh2
